@@ -16,6 +16,3 @@ for i in range(i, n+1):
 
 else:
      print(f"emails_list between {i} and {n+1} are sent!")
-# end_time = datetime.now()
-# time_elapsed = end_time - start
-# print(time_elapsed, 'sec')
