@@ -1,6 +1,7 @@
 import win32com.client as win32
 import pandas as pd
 from datetime import datetime
+import time
 
 def file_path():
     file_path = str(input('File Path: '))
