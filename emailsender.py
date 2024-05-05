@@ -1,7 +1,14 @@
-from pathlib import Path
 import win32com.client as win32
 import pandas as pd
 from datetime import datetime
+
+def file_path():
+    file_path = str(input('File Path: '))
+    file_path = file_path.replace('\\', '/')
+    file_path = file_path.replace('\'', '')
+    file_path = file_path.replace('\"', '')
+    
+    return file_path
 
 
 def get_receiver(index, emails_list):
