@@ -26,4 +26,4 @@ else:
 #End Process Timer
 end = time.time()
 #Time elapsed
-print(end-start, 'second')
+print('elapsed time', end-start, 'second')
