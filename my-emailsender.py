@@ -28,3 +28,4 @@ end = time.time()
 #Time elapsed
 print('elapsed time', end-start, 'second')
 print('Commit_1')
+print('Commit_2')
