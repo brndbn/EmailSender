@@ -21,7 +21,7 @@ for i in range(i, n):
         #send_email(SUBJECT, receiver_info['to'], content, receiver_info['date'])
 
 else:
-     print(f"emails_list between {k} and {n} are sent!")
+     print(f"emails_list between {k[0]} and {n} are sent!")
 
 #End Process Timer
 end = time.time()
